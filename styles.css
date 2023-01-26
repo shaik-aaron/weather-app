@@ -88,3 +88,18 @@ p {
       margin-top: 8px;
       display: none;
 }
+
+@media only screen and (max-width: 415px) {
+      .container {
+            width: 320px;
+      }
+
+      input {
+            width: 228px;
+            margin-right: 10px;
+      }
+
+      #input--user {
+            display: flex;
+      }
+}
